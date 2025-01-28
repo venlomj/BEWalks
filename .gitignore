@@ -1,0 +1,57 @@
+# .gitignore for .NET projects
+
+# Ignore build and output directories
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.lock.json
+
+# Ignore NuGet packages and restore files
+[Nn]uget/
+*.nupkg
+packages/
+**/[Pp]ackages/*
+
+# Ignore local development files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore Azure and Docker files
+[Dd]ockerfile
+*.dockerignore
+[Aa]zure/
+
+# Ignore IDE-specific files
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+
+# Ignore logs and diagnostics
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Visual Studio cache directory
+.vs/
