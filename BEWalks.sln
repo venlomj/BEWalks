@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEWalks.API", "BEWalks.API\BEWalks.API.csproj", "{68FE9E3D-5C16-45CF-821F-455BCD07DA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEWalks.WEB", "BEWalks.WEB\BEWalks.WEB.csproj", "{A011FF8F-1478-483E-AC91-38991800F749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FE9E3D-5C16-45CF-821F-455BCD07DA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FE9E3D-5C16-45CF-821F-455BCD07DA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FE9E3D-5C16-45CF-821F-455BCD07DA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FE9E3D-5C16-45CF-821F-455BCD07DA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A011FF8F-1478-483E-AC91-38991800F749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A011FF8F-1478-483E-AC91-38991800F749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A011FF8F-1478-483E-AC91-38991800F749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A011FF8F-1478-483E-AC91-38991800F749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
